@@ -1,6 +1,6 @@
 # ProwlPhisher
 
-## Phishing Tool - Python
+## Automated Phishing Tool 
 
 Script which I wrote using Python modules to send automated Phishing mails 
 
