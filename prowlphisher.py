@@ -42,11 +42,11 @@ for recipients in ef:
     msg ['To'] = recipients
     
 #Email Body
-    msg.set_content (f"Please reset your password visiting http://127.0.0.1:8020") <- Change Email Body
+    msg.set_content (f"Please reset your password visiting http://127.0.0.1:8020") #<- Change Email Body
 
 #Target Server    
     try:
-        mail = smtplib.SMTP ('127.0.0.1', 25) <- Change this to Targer SMTP Server
+        mail = smtplib.SMTP ('127.0.0.1', 25) #<- Change this to Targer SMTP Server
         mail.send_message (msg)
 #Failure Log
     except smtplib.SMTPException:
