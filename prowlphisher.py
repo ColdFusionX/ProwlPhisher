@@ -46,7 +46,7 @@ for recipients in ef:
 
 #Target Server    
     try:
-        mail = smtplib.SMTP ('127.0.0.1', 25) #<- Change this to Targer SMTP Server
+        mail = smtplib.SMTP ('127.0.0.1', 25) #<- Change this to Target SMTP Server
         mail.send_message (msg)
 #Failure Log
     except smtplib.SMTPException:
