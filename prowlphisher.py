@@ -37,7 +37,7 @@ for recipients in ef:
     stats.status(f"Sending Mail to -> " f"{recipients}")
     
     msg = EmailMessage ()
-    msg ['Subject'] = (f"Data Breach incident - Reset your password")
+    msg ['Subject'] = (f"Data Breach incident - Reset your password") #<- Change this
     msg ['From'] = sender
     msg ['To'] = recipients
     
